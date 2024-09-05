@@ -74,9 +74,9 @@ const Explore = () => {
             Play Game
             </a>
             </div>
-        </div>
-        <br /><br /><br />
-        <div className="">
+            </div>
+            <br /><br /><br />
+            <div className="">
             <h1><WordPullUp
             className="text-4xl md:text-5xl md:text-center font-medium"
             words="The Arts Stream"

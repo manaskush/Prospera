@@ -56,6 +56,47 @@ const services = [
       "Don't waste money on ineffective programs.Let Our Experts personally guide you reach your target ",
   },
 ];
+const experts = [
+  {
+    icon: "/images/expert1.png",
+    title: "Dr. Rajiv Mehra, Ph.D. in Educational Psychology ",
+    description:
+      "Expert in student career assessments and personalized guidance. Specializes in understanding behavioral patterns and interests to provide tailored career advice.",
+  },
+  {
+    icon: "/images/expert1.png",
+    title: "Ms. Ananya Sharma, M.A. in Career Counseling and Guidance",
+    description:
+      "Experienced in helping students navigate career choices with a focus on academic and professional planning. Provides in-depth career exploration and goal setting.",
+  },
+  {
+    icon: "/images/expert1.png",
+    title: "Mr. Arjun Patel, MBA in Human Resources",
+    description:
+      "Brings a business perspective to career counselling, offering insights into industry trends, professional development, and strategic career planning.",
+  },
+  {
+    icon: "/images/expert1.png",
+    title: "Dr. Priya Verma, M.Sc. in Applied Psychology",
+    description:
+      "Focuses on psychometric testing and career aptitude assessments. Provides comprehensive support for students in identifying strengths and career fit.",
+  },
+  {
+    icon: "/images/expert1.png",
+    title: "Ms. Neha Kapoor, B.A. in Sociology and Certified Career Coach",
+    description:
+      "Specializes in understanding societal and individual influences on career choices. Offers guidance on exploring diverse career paths and personal development.",
+  },
+  {
+    icon: "/images/expert1.png",
+    title: "Mr. Siddharth Rao, M.Ed. in Guidance and Counseling",
+    description:
+      "Provides expert advice on educational and career planning. Experienced in working with students to set realistic goals and create actionable career plans.",
+  },
+];
+
+
+
 
 
 export default function Home() {
@@ -380,12 +421,63 @@ export default function Home() {
         <ShootingStarsAndStarsBackgroundDemo />
 
       </Element>
-      <br /><br /><br />
+      <br /><br />
+      <Element name="experts"
+        >
+          <main className="md:px-0 mx-6  md:mx-auto">
+          <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
+        Our{" "}
+            <span className="text-green-500 flex gap-x-1 items-center">
+              {" "}
+              
+              Team of
+              
+            </span>{" "}
+            Experts
+          </h1>
+          <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
+          Here is a list of some expert members from our team 
+        </p>
+
+        <div className="md:px-0 mx-6 xl:2-4/5 2xl:w-[66%] md:mx-auto">
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+            {experts.map((expert) => (
+              <div
+                key={expert.title}
+                className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+              >
+                <Image
+                  src={expert.icon}
+                  width={10000}
+                  height={10000}
+                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
+                  alt="image"
+                />
+                <h1 className="text-xl font-medium">{expert.title}</h1>
+                <p className="text-gray-500">{expert.description}</p>
+              </div>
+            ))}
+          </div>
+          </div>
+
+
+<br />
+          </main>
+        </Element>
+      
+      
+      
+      <br />
+
+
+<br /><br />
+
 
       
       <div className="flex flex-col items-center justify-center  h-full text-center px-2 sm:px-4 md:px-6 lg:px-8">
       <p className="mb-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700">
-        Have any questions or need assistance? Our chatbot is here to help!
+        <h3>Have any questions or need assistance? Our chatbot is here to help! </h3>
       </p>
       <a
         href="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=9e6d09ac-0055-4157-bf39-c06a9d32b779"
@@ -397,7 +489,7 @@ export default function Home() {
       </a>
     </div>
        
-      <section className="my-10 md:py-20 xl:w-4/5 2xl:w-[66%] md:mx-auto ">
+      <section className="my-8 md:py-20 xl:w-4/5 2xl:w-[66%] md:mx-auto ">
       <LetsMakeThingsHappenSection  />
       </section>
 
