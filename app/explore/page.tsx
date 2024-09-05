@@ -2,11 +2,23 @@ import Footer from "@/components/footer";
 import WordFadeIn from "@/components/magicui/word-fade-in";
 import WordPullUp from "@/components/magicui/word-pull-up";
 import ShowcaseNavbar from "@/components/showcase-navbar";
+import Link from "next/link";
 
 const Explore = () => {
     return ( <div className="overflow-clip inset-0 -z-10 h-full w-full bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
         <ShowcaseNavbar />
 
+        <div className="flex items-center justify-center h-full p-4">
+      <div className="inline-block px-6 py-3 text-center bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <Link href={"/explore/resource"}
+          className="hover:text-blue-500 ">
+            Here is our Resource Portal
+          </Link>
+      </div>
+    </div>
+        
+
+        
         <section className="md:px-0 mx-6 xl:w-4/5 2xl:w-[66%] md:mx-auto">
         <div className="flex items-center justify-center relative ">
             <WordFadeIn
@@ -102,6 +114,20 @@ const Explore = () => {
             Play Game
             </a>
             </div>
+        </div>
+        <br /><br /><br />
+        <div className="">
+            <h1><WordPullUp
+            className="text-4xl md:text-5xl md:text-center font-medium"
+            words="The NEP"
+            />
+            </h1>
+            <p className="md:text-center py-8 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
+            The National Education Policy NEP aims to transform the Indian education system by fostering holistic development, promoting multidisciplinary learning, and enhancing employability. It emphasizes the need for career guidance and counseling to help students make informed decisions about their future paths.
+   
+   
+            Prospera aligns with the NEP by offering comprehensive career counseling services. We provide personalized assessments to understand each student's strengths and interests. Our expert counselors use this data to suggest career options that fit individual profiles. Prospera also integrates multidisciplinary approaches, helping students explore various fields and make well-rounded career choices. By staying updated with NEP guidelines, we ensure that our services support students in achieving their educational and professional goals effectively.</p>
+            <br />
         </div>
         </section>
         <br />
