@@ -126,8 +126,7 @@ const Explore = () => {
             The National Education Policy NEP aims to transform the Indian education system by fostering holistic development, promoting multidisciplinary learning, and enhancing employability. It emphasizes the need for career guidance and counseling to help students make informed decisions about their future paths.
    
    
-            Prospera aligns with the NEP by offering comprehensive career counseling services. We provide personalized assessments to understand each student's strengths and interests. Our expert counselors use this data to suggest career options that fit individual profiles. Prospera also integrates multidisciplinary approaches, helping students explore various fields and make well-rounded career choices. By staying updated with NEP guidelines, we ensure that our services support students in achieving their educational and professional goals effectively.</p>
-            <br />
+            Prospera aligns with the NEP by offering comprehensive career counseling services. We provide personalized assessments to understand each students strengths and interests. Our expert counselors use this data to suggest career options that fit individual profiles. Prospera also integrates multidisciplinary approaches, helping students explore various fields and make well-rounded career choices. By staying updated with NEP guidelines, we ensure that our services support students in achieving their educational and professional goals effectively.</p>            <br />
         </div>
         </section>
         <br />
