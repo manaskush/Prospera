@@ -127,7 +127,7 @@ const Resouce = () => {
       <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500 space-y-4">
       <li>Shri Ram College of Commerce (SRCC), Delhi</li>
 <div>Lady Shri Ram College for Women (LSR), Delhi</div>
-<div>St. Xavier's College, Mumbai</div>
+<div>St. Xavier College, Mumbai</div>
 <div>Narsee Monjee College of Commerce and Economics, Mumbai</div>
 <div>Jai Hind College, Mumbai</div>
 <div>H.R. College of Commerce and Economics, Mumbai</div>
