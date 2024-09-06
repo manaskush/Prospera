@@ -71,15 +71,12 @@ const Meeting = () => {
 
     <div className="md:w-1/2">
       <Calendly />
-      </div>
+    </div>
       
       </div>
     
       <Footer />
-    
-    
 </div>
-
   );
 };
 

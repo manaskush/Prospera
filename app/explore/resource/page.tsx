@@ -57,7 +57,7 @@ const Resouce = () => {
     </div>
             <br /><br />
 
-            <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Opportunities Available </h2>
+            <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Degrees Available </h2>
             <div className="md:text-center py-8 md:w-1/2 mx-auto">
       <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
         <li>Bachelor of Science (B.Sc.)</li>
@@ -79,6 +79,17 @@ const Resouce = () => {
         <li>Indian Institute of Science (IISc) Bangalore</li>
         <li>All India Institute of Medical Sciences (AIIMS) Delhi</li>
         <li>National Institute of Technology (NIT) Trichy</li>
+      </ul>
+    </div>
+
+    <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Famous Exams </h2>
+            <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+        <li>JEE Main</li>
+        <li>JEE Advance</li>
+        <li>Neet</li>
+        <li>Comedk</li>
+        <li>BITSAT</li>
       </ul>
     </div>
 
@@ -110,7 +121,7 @@ const Resouce = () => {
     </div>
             <br /><br />
 
-            <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Opportunities Available </h2>
+            <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Degrees Available </h2>
             <div className="md:text-center py-8 md:w-1/2 mx-auto">
       <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
       <li>Bachelor of Commerce (B.Com)</li>
@@ -134,6 +145,16 @@ const Resouce = () => {
       </ul>
     </div>
 
+
+    <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Famous Exams </h2>
+            <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+        <li>CA CPT (now Foundation)</li>
+        <li>CS Foundtion</li>
+        <li>CMA Foundtion</li>
+        <li>BBA Entrance Exams (like DU JAT) </li>
+      </ul>
+    </div>
 <br /><br /><br />
     </div>
     <div className="">
@@ -187,7 +208,16 @@ const Resouce = () => {
 <li>University of Delhi, Delhi</li>
       </ul>
     </div>
-
+    
+    <h2 className="text-3xl md:text-4xl md:text-center font-medium"> Famous Exams </h2>
+            <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+        <li>UGC NET</li>
+        <li>CSI RNET</li>
+        <li>CUCUET</li>
+        <li>NID (Design Entrance Exam) </li>
+      </ul>
+    </div>
 
     </div>
     </section>

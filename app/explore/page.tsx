@@ -7,9 +7,9 @@ import Link from "next/link";
 const Explore = () => {
     return ( <div className="overflow-clip inset-0 -z-10 h-full w-full bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
         <ShowcaseNavbar />
-
+<br /><br />
         <div className="flex items-center justify-center h-full p-4">
-      <div className="inline-block px-6 py-3 text-center bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <div className="inline-block px-6 py-4 text-center bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
       <Link href={"/explore/resource"}
           className="hover:text-blue-500 ">
             Here is our Resource Portal
@@ -36,8 +36,20 @@ const Explore = () => {
             />
             </h1>
             <p className="md:text-center py-8 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
-            Choosing the Science stream in 11th class in India opens up a world of opportunities and exciting challenges. This stream primarily includes subjects like Physics, Chemistry, Biology, and Mathematics. If you have a keen interest in understanding how the universe works, from the fundamental laws of nature to the complexities of living organisms, the Science stream is a perfect fit. It not only deepens your knowledge in these areas but also builds strong analytical and problem-solving skills. Studying Science can pave the way for careers in engineering, medicine, research, and technology, offering a broad range of professional paths. Moreover, the skills and knowledge gained are highly valued globally and can lead to advancements in cutting-edge fields. If you enjoy exploring how things work and solving complex problems, the Science stream provides a strong foundation for both higher education and future career prospects.
-            </p>
+            These are some points one should consider before choosing science stream
+             </p>
+             <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+      <li>Diverse Career Options: Science opens doors to numerous careers in engineering, medicine, research, and technology.</li>
+<li>Problem-Solving Skills: It enhances analytical and problem-solving skills through logical and systematic approaches.</li>
+<li>Innovation Opportunities: Science drives innovation and technological advancements, allowing you to contribute to groundbreaking discoveries.</li>
+<li>Strong Foundation for Further Studies: It provides a solid foundation for advanced studies in specialized fields like astrophysics, biotechnology, or environmental science.</li>
+<li>High Demand: Science professionals are often in high demand, leading to competitive salaries and job security.</li>
+<li>Interdisciplinary Learning: It fosters interdisciplinary learning, combining knowledge from physics, chemistry, biology, and mathematics.</li>
+<li>Global Impact: Science has a profound impact on global issues such as health, climate change, and sustainability, enabling you to make a difference.</li>
+      </ul>
+    </div>
+           
             
             <div className="flex justify-center items-center h-full">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/2CTv5JRMBvM?si=2Vm8V97wwcC-mZyL" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
@@ -66,8 +78,19 @@ const Explore = () => {
             />
             </h1>
             <p className="md:text-center py-8 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
-            Choosing the Commerce stream in 11th class in India opens the door to a dynamic world of business and finance. This stream typically includes subjects like Accountancy, Business Studies, Economics, and Mathematics. If you are interested in how businesses operate, manage finances, and navigate economic systems, Commerce is an excellent choice. It equips you with practical skills in financial management, economic analysis, and business strategies, preparing you for various careers in accounting, finance, marketing, and entrepreneurship. The Commerce stream also lays a solid foundation for pursuing professional courses like Chartered Accountancy  or Company Secretary . It is ideal for students who enjoy analytical thinking and aspire to play a role in the business world or start their own ventures. With the global economy constantly evolving, a background in Commerce offers numerous opportunities for growth and success in diverse industries.
-            </p>
+            These are some points one should consider before choosing commerce stream
+             </p>
+             <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+      <li>Business Skills: Commerce equips you with essential business and financial skills, useful for various careers in business and finance.</li>
+<li>Career Opportunities: It opens pathways to careers in accounting, finance, marketing, and management.</li>
+<li>Entrepreneurial Skills: It provides a foundation for starting and managing your own business.</li>
+<li>Understanding of Economics: You gain a strong grasp of economic principles and market dynamics.</li>
+<li>Versatile Education: Commerce knowledge is applicable in diverse industries and sectors.</li>
+<li>Higher Earning Potential: Careers in commerce often have competitive salary prospects.</li>
+<li>Global Applicability: Business and financial skills are in demand worldwide, offering opportunities in international markets.</li>
+      </ul>
+    </div>
             <br />
             <div className="flex justify-center items-center h-full">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/IuZC-kOzn8o?si=76SV_CW-sBp-u2q9" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
@@ -95,8 +118,19 @@ const Explore = () => {
             />
             </h1>
             <p className="md:text-center py-8 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
-            Choosing the Arts or Humanities stream in 11th class in India offers a diverse and enriching educational experience. This stream includes subjects like English, History, Political Science, Geography, Psychology, and Sociology. If you have a passion for understanding cultures, human behavior, and societal structures, the Arts stream is perfect for you. It encourages critical thinking, creativity, and a deeper appreciation of the world complexities. By studying Arts, you can explore various fields such as journalism, literature, design, and public administration. It also provides a strong foundation for careers in teaching, social work, and creative industries. The Arts stream values diverse perspectives and fosters skills that are essential for roles that involve communication, analysis, and creativity. If you enjoy exploring ideas, expressing yourself, and understanding human experiences, the Arts stream offers a broad range of possibilities and personal growth. </p>
-            <br />
+            These are some points one should consider before choosing commerce stream
+             </p>
+             <div className="md:text-center py-8 md:w-1/2 mx-auto">
+      <ul className="list-disc list-inside text-xl md:text-2xl text-gray-500">
+      <li>Creativity and Expression: Arts allows for personal expression and the development of creative skills.</li>
+<li>Critical Thinking: It fosters critical thinking and analytical skills through the study of literature, history, and philosophy.</li>
+<li>Cultural Awareness: You gain a deep understanding of different cultures and historical contexts.</li>
+<li>Versatile Careers: Arts graduates can pursue diverse careers in education, media, design, and public relations.</li>
+<li>Flexibility: The arts provide a broad knowledge base, allowing for career flexibility and adaptability.</li>
+<li>Personal Growth: Studying arts often enhances emotional intelligence and empathy.</li>
+<li>Contribution to Society: Arts play a crucial role in societal development and cultural enrichment.</li>
+      </ul>
+    </div><br />
             <div className="flex justify-center items-center h-full">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qh1LiVAsOtI?si=RGKGb3M4ymhFbvXv" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             </div>
