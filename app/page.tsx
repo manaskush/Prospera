@@ -357,9 +357,26 @@ export default function Home() {
         </div>
         </Element> 
 
+        
+
         <section className="py-20 ">
           <ScrollBasedVelocityDemo />
         </section>
+
+        <div className="flex flex-col items-center justify-center  h-full text-center px-2 sm:px-4 md:px-6 lg:px-8">
+        
+      <p className="mb-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700">
+      <h3> Prospera Career Buddy </h3>
+      </p>
+      <a
+        href="https://career-guide-delta.vercel.app/"
+        className="inline-block px-4 py-2 text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 sm:px-6 sm:py-3 md:px-8 md:py-4"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Career Buddy
+      </a>
+    </div>
 
         <Element name="process"
         >
@@ -480,6 +497,19 @@ export default function Home() {
           </div>
           </div>
 
+          <div className="flex flex-col items-center justify-center  h-full text-center px-2 sm:px-4 md:px-6 lg:px-8">
+      <p className="mb-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700">
+        <h3>Join us at Prospera as a Counsellor </h3>
+      </p>
+      <a
+        href="https://forms.gle/ThL3GFeSujdEp6Pb7"
+        className="inline-block px-4 py-2 text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 sm:px-6 sm:py-3 md:px-8 md:py-4"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Join
+      </a>
+    </div>
 
 <br />
           </main>
@@ -499,7 +529,7 @@ export default function Home() {
         <h3>Have any questions or need assistance? Our chatbot is here to help! </h3>
       </p>
       <a
-        href="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=9e6d09ac-0055-4157-bf39-c06a9d32b779"
+        href="https://ai-chatbot-one-ochre.vercel.app/"
         className="inline-block px-4 py-2 text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 sm:px-6 sm:py-3 md:px-8 md:py-4"
         target="_blank"
         rel="noopener noreferrer"
