@@ -17,6 +17,7 @@ const Meeting = () => {
 
 
   return (
+    <div>
     <div className="
     flex flex-col  w-full  
      overflow-clip inset-0 -z-10 
@@ -75,7 +76,9 @@ const Meeting = () => {
       
       </div>
     
-      <Footer />
+      
+</div>
+<Footer />
 </div>
   );
 };

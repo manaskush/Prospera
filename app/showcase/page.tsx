@@ -1,4 +1,5 @@
 import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
+import { HeroVideoDialogDemoTopInBottomOut } from "@/components/demos/hero-video-dialog-demo";
 import Footer from "@/components/footer";
 import WordFadeIn from "@/components/magicui/word-fade-in";
 import WordPullUp from "@/components/magicui/word-pull-up";
@@ -31,7 +32,8 @@ const Showcase = () => {
             <br /><br />
             
             <div className="flex justify-center items-center h-full">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cWzKBZasnOc?si=cTGDxTC9ZbF4RBtT" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe></div>
+                <HeroVideoDialogDemoTopInBottomOut videoSrc="https://www.youtube.com/embed/cWzKBZasnOc?si=cTGDxTC9ZbF4RBtT" thumbnailSrc="images/thumbnail4.jpg"/>
+            </div>
             <br /><br />
             
             

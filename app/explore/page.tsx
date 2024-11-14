@@ -1,4 +1,5 @@
 import Footer from "@/components/footer";
+import { HeroVideoDialogDemoTopInBottomOut } from "@/components/demos/hero-video-dialog-demo";
 import WordFadeIn from "@/components/magicui/word-fade-in";
 import WordPullUp from "@/components/magicui/word-pull-up";
 import ShowcaseNavbar from "@/components/showcase-navbar";
@@ -9,12 +10,26 @@ const Explore = () => {
         <ShowcaseNavbar />
 <br /><br />
         <div className="flex items-center justify-center h-full p-4">
-      <div className="inline-block px-6 py-4 text-center bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      
       <Link href={"/explore/resource"}
-          className="hover:text-blue-500 ">
+          className=" py-3 
+            px-10
+            md:px-16
+      md:text-xl
+      hover:bg-[#abcbff] 
+      rounded-[6px]
+      border-2 
+      border-black 
+      dark:border-white 
+       bg-[#121212] 
+       text-white 
+       transition 
+       duration-200 
+       hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
+             >
             Here is our Resource Portal
           </Link>
-      </div>
+      
     </div>
         
 
@@ -52,7 +67,9 @@ const Explore = () => {
            
             
             <div className="flex justify-center items-center h-full">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2CTv5JRMBvM?si=2Vm8V97wwcC-mZyL" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            
+            <HeroVideoDialogDemoTopInBottomOut  videoSrc="https://www.youtube.com/embed/2CTv5JRMBvM?si=2Vm8V97wwcC-mZyL"
+            thumbnailSrc="images/thumbnail1.jpg"/>
             </div>
             <br /><br />
             <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
@@ -93,7 +110,8 @@ const Explore = () => {
     </div>
             <br />
             <div className="flex justify-center items-center h-full">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/IuZC-kOzn8o?si=76SV_CW-sBp-u2q9" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              <HeroVideoDialogDemoTopInBottomOut videoSrc="https://www.youtube.com/embed/IuZC-kOzn8o?si=76SV_CW-sBp-u2q9"
+              thumbnailSrc="images/thumbnail2.jpg"/>
             </div>
             <br /><br />
             <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
@@ -131,9 +149,10 @@ const Explore = () => {
 <li>Contribution to Society: Arts play a crucial role in societal development and cultural enrichment.</li>
       </ul>
     </div><br />
-            <div className="flex justify-center items-center h-full">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qh1LiVAsOtI?si=RGKGb3M4ymhFbvXv" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-            </div>
+            <div className="flex justify-center items-center h-full">.
+            <HeroVideoDialogDemoTopInBottomOut videoSrc="https://www.youtube.com/embed/qh1LiVAsOtI?si=RGKGb3M4ymhFbvXv"
+            thumbnailSrc="images/thumbnail3.jpg"/>
+             </div>
             <br /><br />
             <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500 ">
             Apart from the above Youtube Video you can also play a game with us  to test your knowledge. 
