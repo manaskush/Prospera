@@ -529,7 +529,7 @@ export default function Home() {
         <h3>Have any questions or need assistance? Our chatbot is here to help! </h3>
       </p>
       <a
-        href="https://ai-chatbot-one-ochre.vercel.app/"
+        href="https://prospera-chatbot-4hal.vercel.app/"
         className="inline-block px-4 py-2 text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 sm:px-6 sm:py-3 md:px-8 md:py-4"
         target="_blank"
         rel="noopener noreferrer"
